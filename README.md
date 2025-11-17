@@ -39,4 +39,4 @@ Each benchmark includes combinations of four bus widths:
 </p>
 
 # Reference
-[1] A. Liao, H. Chang, O. Chi, and J. Wang. (2018). ”ICCAD 2018 CAD Contest Obstacle-Aware On-Track Bus Routing” [Online]. Available: http://iccad-contest.org/2018/Problem B/2018ICCADContest ProblemB.pdf
+[1] A. Liao, H. Chang, O. Chi, and J. Wang. (2018). ”ICCAD 2018 CAD Contest Obstacle-Aware On-Track Bus Routing” [Online]. Available: https://drive.google.com/file/d/16dNYQDnR9aUZ4F6cs33X-MeWjXOM8vfn/view
