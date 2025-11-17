@@ -5,13 +5,15 @@ To emulate a new bus routing challenges(e.g., 2D-placed bus pins), we developed 
   - bus_design_XX
       - bus_XX_def.tar.gz
       - bus_XX.png
-  - 9 benchmarks with conventional 1-dimensional pins
+      - bus_XX.v
+  - 9 benchmarks with conventional 1D pins
 
 ### 2D_placed_designs (Total 9 benchmarks)
   - bus_design_XX
       - bus_XX_def.tar.gz
       - bus_XX.png
-  - 9 benchmarks with 2-dimensional pins
+      - bus_XX.v
+  - 9 benchmarks with 1D & 2D pins
         
 These benchmarks are derived from the original bus and blockage patterns and extended to introduce 2D placed pins. All benchmark layouts were implemented using a commercial Place-and-Route (P&R) tool. The 2D placed benchmarks were constructed through custom DEF generation.
 
@@ -24,7 +26,7 @@ Each benchmark includes combinations of four bus widths:
 - 1D pin Benchmarks: All input/output pins are placed along the die boundary.
 - 2D pin Benchmarks:
   - Input pins remain on the die boundary.
-  - Output pins are placed inside the die as 2-dimensional array pins, modeled after TSV-based connections.
+  - Output pins are placed inside the die as 2D pins, modeled after TSV-based connections.
   - Each 2D pin uses a 5 × 5 µm² metal pad on the M5 layer, matching top BEOL via dimensions and routing track pitch.
 
 ## Routing and Blockage Configuration
