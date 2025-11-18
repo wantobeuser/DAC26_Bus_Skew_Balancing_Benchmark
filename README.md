@@ -1,5 +1,5 @@
 # \[DAC26\] Bus Skew Balancing Benchmark
-### Benchmark Description
+## Benchmark Description
 To emulate new bus routing challenges(e.g., 2D-placed bus pins), we developed a new bus routing benchmark by extending the ICCAD 2018 benchmark suite[1]. First, we construct nine distinct netlists varying in bus width/count configurations. Then, for each netlist, we create two floorplan variants, 1D-placed and 2D-placed, by changing die width, height, pin placement, and routing blockages. The 1D set is included specifically to highlight that the 2D pin placement exhibits larger intra-bus HPWL variation compared to the 1D case. In total, we provide a set of 18 routing benchmarks designed to evaluate bus routing under different I/O pin configurations:
 
 ### 1D_placed_designs (Total 9 benchmarks)
@@ -38,6 +38,6 @@ Each benchmark includes buses with four different bus widths:
   <img src="Table.png" alt="My Table" width=700 legnth=700>
 </p>
 
-# Reference
+## Reference
 [1] A. Liao, H. Chang, O. Chi, and J. Wang. (2018). ”ICCAD 2018 CAD Contest Obstacle-Aware On-Track Bus Routing” [Online]. Available: https://drive.google.com/file/d/16dNYQDnR9aUZ4F6cs33X-MeWjXOM8vfn/view  
 [2] "Cadence Innovus User Guide," http://www.cadence.com.
