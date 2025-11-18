@@ -31,7 +31,7 @@ Each benchmark includes buses with four different bus widths:
 
 ## Routing and Blockage Configuration
 - Detailed routing is performed using [2].
-- Routing blockages are inserted on M3 and M4 to represent preserved routing regions, effectively constraining available routing space for buses.
+- Routing blockages are inserted on M3 and M4, effectively constraining available routing space for buses.
 
 <p align="center">
   <img src="Table.png" alt="My Table" width=700 legnth=700>
