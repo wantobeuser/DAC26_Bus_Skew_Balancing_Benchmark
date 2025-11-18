@@ -4,14 +4,14 @@ To emulate new bus routing challenges (e.g., 2D placed bus pins), we developed a
 
 ### 1D_placed_designs (Total 9 benchmarks)
   - bus_design_XX
-      - bus_XX.def
+      - bus_XX_def.tar.gz
       - bus_XX.png
       - bus_XX.v
   - 9 benchmarks with conventional 1D pins
 
 ### 2D_placed_designs (Total 9 benchmarks)
   - bus_design_XX
-      - bus_XX.def
+      - bus_XX_def.tar.gz
       - normal_bus_XX.png
       - bus_XX.v
   - 9 benchmarks with mixed 1D & 2D pins
