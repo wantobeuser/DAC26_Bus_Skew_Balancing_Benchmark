@@ -1,4 +1,4 @@
-# DAC26 Bus Skew Balancing Benchmark
+# [DAC26] Bus-Synchronizer - Bus Skew Balancing Benchmark
 ### Benchmark Description
 To emulate new bus routing challenges(e.g., 2D-placed bus pins), we developed a new bus routing benchmark by extending the ICCAD 2018 benchmark suite[1]. First, we construct nine distinct netlists varying in bus width/count configurations. Then, for each netlist, we create two floorplan variants, 1D-placed and 2D-placed, by changing die width, height, pin placement, and routing blockages. The 1D set is included specifically to highlight that the 2D pin placement exhibits larger intra-bus HPWL variation compared to the 1D case. In total, we provide a set of 18 routing benchmarks designed to evaluate bus routing under different I/O pin configurations:
 
