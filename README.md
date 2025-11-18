@@ -22,7 +22,7 @@ All benchmark layouts were implemented using a commercial tool, Innovus v21.16 [
 Each benchmark includes buses with four different bus widths:
 - 8-bit, 16-bit, 32-bit, and 64-bit
 
-## Pin Placement Structure
+## Pin Placement
 - 1D_placed Benchmarks: All input/output pins are placed along the die boundary.
 - 2D_placed Benchmarks:
   - Input pins remain on the die boundary.
