@@ -23,15 +23,14 @@ Each benchmark includes buses with four different bus widths:
 - 8-bit, 16-bit, 32-bit, and 64-bit
 
 ## Pin Placement
-- 1D_placed benchmarks: All input/output pins are placed along the die boundary.
+- 1D_placed benchmarks: All input/output pins are placed along the die boundary (M5 layer).
 - 2D_placed benchmarks:
-  - Input pins remain on the die boundary.
+  - Input pins remain on the die boundary (M5 layer).
   - Output pins are placed inside the die as 2D pins, modeled after TSV-based connections.
   - Each 2D pin uses a 5 × 5 µm² metal pad on the M5 layer, matching top BEOL via dimensions and routing track pitch.
 
 ## Routing and Blockage Configuration
 - Detailed routing is performed using [2].
-- Pins are located on M5.
 - Routing blockages are inserted on M3 and M4 to represent preserved routing regions, effectively constraining available routing space for buses.
 
 <p align="center">
