@@ -3,16 +3,16 @@
 To emulate new bus routing challenges (e.g., 2D placed bus pins), we developed a new bus routing benchmark by extending the ICCAD 2018 benchmark suite[1]. First, we construct nine distinct netlists varying in bus width and count configurations. Then, for each netlist, we create two floorplan variants, 1D-placed and 2D-placed, by changing die width, height, pin placement, and routing blockages. The 1D set is included specifically to highlight that 2D pin placement exhibits larger intra-bus HPWL variation compared to the 1D case. In total, we provide a set of 18 routing benchmarks designed to evaluate bus routing under different I/O pin configurations:
 
 ### 1D_placed_designs (Total 9 benchmarks)
-  - bus_design_XX
-      - bus_XX_def.tar.gz
-      - bus_XX.png
+  - bus_XX_1D
+      - bus_XX_1D.png
+      - bus_XX_1D.tar.gz
       - bus_XX.v
   - 9 benchmarks with conventional 1D pins
 
 ### 2D_placed_designs (Total 9 benchmarks)
-  - bus_design_XX
-      - bus_XX_def.tar.gz
-      - normal_bus_XX.png
+  - bus_XX_2D
+      - bus_XX_2D.png
+      - bus_XX_2D.tar.gz
       - bus_XX.v
   - 9 benchmarks with mixed 1D & 2D pins
         
